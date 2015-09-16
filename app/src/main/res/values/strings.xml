@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MP4 EDITOR</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cancelDialogText">CANCEL</string>
+    <string name="okDialogText">OK</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_imei_lbl">CROP</string>
+    <string name="select_video_btn_TXT">Select Video</string>
+    <string name="merge_videos_btn_TXT">Merge Videos</string>
+    <string name="loding_TXT">Please wait, editing video...</string>
+</resources>

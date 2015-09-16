@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alama.mp4editor.ui.EditSettingFragment"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/startTimeTXT"
+        android:layout_weight="0.3"
+        android:hint="Start time"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/endTimeTXT"
+        android:layout_weight="0.3"
+        android:hint="Length"
+        android:inputType="number"
+        android:imeOptions="actionDone"
+        android:imeActionLabel="@string/button_imei_lbl"/>
+
+    <Button
+        android:id="@+id/cropBTN"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:background="@android:drawable/ic_menu_crop"
+        android:elevation="20dp"/>
+
+</LinearLayout>

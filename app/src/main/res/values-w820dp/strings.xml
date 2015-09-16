@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancelDialogText">CANCEL</string>
+    <string name="okDialogText">OK</string>
+    <string name="button_imei_lbl">CROP</string>
+    <string name="select_video_btn_TXT">Select Video</string>
+    <string name="merge_videos_btn_TXT">Merge Videos</string>
+    <string name="loding_TXT">Please wait, editing video...</string>
+</resources>
